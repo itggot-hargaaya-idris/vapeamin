@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0; 
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eff3f6;
+}
+
+container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100vw;
+}
+h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 55px;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #0567bf;
+    color: white;
+    height: 12vh;
+    width: 100vw;
+}
+
+header a {
+    margin-top: -15px;
+    margin-left: 76px;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+header h1 {
+    font-size: 55px;
+    margin: 13px 30px 0px 50px;
+}
+
+uheader {
+    width: 100vw;
+    height: 88vh;
+    text-align: center;
+    color: white;
+    background-image: url(background.jpg) no-repeat;
+    background-size: cover;
+}
+
+.back {
+    z-index: -1;
+    width: 100vw;
+    height: 88vh;
+    position: absolute;
+}
+
+uheader h1{
+    font-size: 52px;
+    margin-top: 100px;
+}
+
+uheader p {
+    font-size: 36px;
+    margin-top: -50px;
+}
+
+produkt {
+    width: 100vw;
+    height: 1200px;
+    color: #222222;
+    display: flex;
+    flex-direction: row;
+}
+
+produkt img {
+    width: 40vw;
+    height: 380px;
+    margin-left: auto;
+    border: 15px solid #c9dcea;
+    margin-top: 40px;
+}
+
+produkt article {
+    width: 45vw;
+    margin-right: auto;
+    margin-left: 40px;
+    background-color: #c9dcea;
+    margin-top: 40px;
+    padding: 10px;
+    padding-bottom: 20px;
+    height: 380px;
+}

@@ -1,0 +1,290 @@
+    @media only screen and (min-device-width: 481px) {
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #eff3f6;
+    }
+
+    header {
+        height: 13vh;
+        background-color: #0567bf;
+        color: white;
+        box-shadow: 0px 5px 2px -2px #222222;
+        display: flex;
+        flex-direction: row;
+    }
+
+    header h1 {
+        font-size: 72px;
+        margin: 0 0 0 22px;
+        padding: 0;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav a {
+        font-size: 40px;
+        color: white;
+        text-decoration: none;
+        margin: -17px 20px 0px 40px;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    section {
+        background-image: url('darkmountains.jpg');
+        height: 87vh;
+        margin: 0;
+        padding: 0;
+        color: white;
+        text-align: center;
+    }
+
+    section h1 {
+        font-family: 'Lobster';
+        font-size: 120px;
+        margin: 0;
+        padding: 10px;
+    }
+
+    section p {
+        font-size: 55px;
+        margin: 0;
+    }
+
+    section img {
+        height: 40vh;
+        width: 30vw;
+        padding-top: 30px;
+    }
+
+    article {
+        color: #222222;
+    }
+
+    article h1 {
+        font-family: 'lobster';
+        font-size: 55px;
+        margin: 40px 0px 2px 10px;
+    }
+
+    article h2 {
+        font-size: 34px;
+        margin: 2px 0px 16px 10px;
+    }
+
+    article p {
+        margin: 2px 0px 18px 10px;
+    }
+
+    #buy {
+        text-align: center;
+        background-image: url('darkmountains.jpg');
+        padding-bottom: 20px;
+        margin-bottom: 0px;
+    }
+
+    #buy h1 {
+        font-family: 'lobster';
+        color: #222222;
+        font-size: 55px;
+        margin-top: 60px;
+        padding-top: 20px;
+    }
+
+    #buy button {
+        border: 6px solid white;
+        color: white;
+        background-color:  #0567bf;
+        font-size: 40px;
+        width: 190px;
+        height: 65px;
+        margin-bottom: 0;
+        font-family: montserrat;
+    }
+
+    address {
+        background-color: #0567bf;
+        color: white;
+        font-size: 34px;
+        text-decoration: none;
+        font-style: normal;
+        display: flex;
+        flex-direction: row;
+    }
+
+    address p {
+        margin-top: 0;
+        padding-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .last {
+        margin-bottom: 0;
+        
+    }
+
+}
+@media only screen and (max-device-width: 480px) {
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    header h1 {
+        margin: 0;
+    }
+
+    header {
+        font-size: 72px;
+        background-color: #0567bf;
+        color: white;
+        text-align: center;
+        width: 100vw;
+        height: 13vh;
+        height: inherit;
+        box-shadow: 0px 5px 2px -2px #222222;
+    }
+
+    .button {
+        font-size: 32px;
+        border-top: 10px solid white;
+        margin: -10px auto 0 auto;
+        padding-top: 4px;
+    }
+
+    .show_nav {
+        width: 100vw;
+        height: 300px;
+        background-color: #c9dcea;
+        color: #222222;
+        text-align: center;
+        font-size: 55px;
+        box-shadow: 0px 5px 2px -2px #222222;
+    }
+
+    header a{
+        color: white;
+        text-decoration: none;
+    }
+
+    header p {
+        margin: 5px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    button {
+        border: 6px solid white;
+        color: white;
+        background-color:  #0567bf;
+        font-size: 44px;
+        width: 200px;
+        height: 70px;
+        margin-bottom: 10px;
+        margin-top: -40px;
+        font-family: montserrat;
+    }  
+
+    section {
+        height: 85vh;
+        width: 100vw;
+        background-image: url('darkmountains.jpg');
+        text-align: center;
+    }
+
+    section h1 {
+        color: white;
+        margin: 0;
+        padding: 100px 0px 0px 10px;
+        font-size: 78px;
+        font-family: lobster;
+    }
+
+    section p {
+        color: white;
+        margin: 0;
+        padding: 10px;
+        font-size: 33px;
+    }
+    
+    section img {
+        width: 90vw;
+        height: 50vh;
+        padding-top: 50px;
+        align-content: center;
+    }
+
+    article {
+        padding: 10px 30px 30px 10px;
+        color: #222222;
+        height: 100vh;
+    }
+
+    article h1{
+        font-family: 'Lobster';
+        font-size: 78px;
+        padding: -30px 0 0 0;
+    }
+
+    article h2 {
+        font-size: 48px;
+    }
+
+    article p {
+        font-size: 30px;
+    }
+
+    div {
+        border-bottom: 1px solid white;
+        height: 70vh;
+        padding: 10px 30px 10px 30px;
+        text-align: center;
+    }
+
+    div h1 {
+        font-size: 120px;
+        font-family: 'Lobster';
+    }
+
+    div img {
+        height: 360px;
+        width: 680px;
+        padding: 20px;
+    }
+
+    div p {
+        color: #222222;
+        font-size: 55px;
+        padding: 20px;
+    }
+
+    div button {
+        padding: 30px;
+        height: 140px;
+        width: 300px;
+        font-size: 50px;
+    }
+
+    address {
+        height: 50vh;
+        background-color: #0567bf;
+        padding: 10px 30px 10px 30px;
+    }
+
+    address p {
+        color: white;
+        font-size: 55px;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
