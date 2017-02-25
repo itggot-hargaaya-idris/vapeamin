@@ -18,7 +18,7 @@
 
     header h1 {
         font-size: 72px;
-        margin: 0 0 0 22px;
+        margin: 5px 30px 0 22px;
         padding: 0;
     }
 
@@ -31,15 +31,37 @@
         font-size: 40px;
         color: white;
         text-decoration: none;
-        margin: -17px 20px 0px 40px;
+        margin: -17px 16px 0px 40px;
     }
 
     .mobile {
         display: none;
     }
 
+    nav input {
+    width: 150px;
+    height: 40px;
+    margin: 20px 40px 0px 20px;
+    background-color: inherit;
+    border: 0px solid white;
+    border-bottom: 4px solid white;
+    transition: width 0.4s ease-in-out;
+    color: white;
+    font-family: montserrat;
+    font-size: 20px;
+    text-align: center;
+    background-image: url(search.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: 0 7px;
+    }
+
+    nav input:focus {
+        width: 100%;
+    }
+
     section {
-        background-image: url('darkmountains.jpg');
+        background-image: url('top-image.jpg');
         height: 87vh;
         margin: 0;
         padding: 0;
@@ -49,13 +71,13 @@
 
     section h1 {
         font-family: 'Lobster';
-        font-size: 120px;
+        font-size: 100px;
         margin: 0;
         padding: 10px;
     }
 
     section p {
-        font-size: 55px;
+        font-size: 45px;
         margin: 0;
     }
 
@@ -72,22 +94,23 @@
     article h1 {
         font-family: 'lobster';
         font-size: 55px;
-        margin: 40px 0px 2px 10px;
+        margin: 40px 20px 2px 20px;
+        color: #0567bf;
     }
 
     article h2 {
         font-size: 34px;
-        margin: 2px 0px 16px 10px;
+        margin: 2px 20px 16px 20px;
     }
 
     article p {
-        margin: 2px 0px 18px 10px;
+        margin: 2px 20px 18px 20px;
     }
 
     #buy {
         text-align: center;
-        background-image: url('darkmountains.jpg');
-        padding-bottom: 20px;
+        background-image: url('bottom-image.jpg');
+        padding-bottom: 50px;
         margin-bottom: 0px;
     }
 
@@ -99,6 +122,11 @@
         padding-top: 20px;
     }
 
+    #buy p {
+        font-size: 21px;
+        margin: 4px;
+    }
+
     #buy button {
         border: 6px solid white;
         color: white;
@@ -107,6 +135,7 @@
         width: 190px;
         height: 65px;
         margin-bottom: 0;
+        margin-top: 10px;
         font-family: montserrat;
     }
 
@@ -121,21 +150,17 @@
     }
 
     address p {
-        margin-top: 0;
-        padding-top: 20px;
+        margin-top: 20px;
+        padding: 5px;
         margin-left: auto;
         margin-right: auto;
+        border-bottom: 3px solid white;
     }
-
-    .last {
-        margin-bottom: 0;
-        
-    }
-
 }
 @media only screen and (max-device-width: 480px) {
     body {
         font-family: 'Montserrat', sans-serif;
+        background-color: #eff3f6;
     }
     
     header h1 {
@@ -168,6 +193,10 @@
         text-align: center;
         font-size: 55px;
         box-shadow: 0px 5px 2px -2px #222222;
+    }
+
+    nav input {
+        display: none;
     }
 
     header a{
@@ -219,21 +248,22 @@
     
     section img {
         width: 90vw;
-        height: 50vh;
-        padding-top: 50px;
+        height: 30vh;
+        margin-top: 200px;
         align-content: center;
     }
 
     article {
-        padding: 10px 30px 30px 10px;
+        padding: 10px 30px 30px 20px;
         color: #222222;
-        height: 100vh;
+        height: 103vh;
     }
 
     article h1{
         font-family: 'Lobster';
         font-size: 78px;
         padding: -30px 0 0 0;
+        color: #0567bf;
     }
 
     article h2 {
@@ -249,6 +279,7 @@
         height: 70vh;
         padding: 10px 30px 10px 30px;
         text-align: center;
+        background-color: #c9cdea;
     }
 
     div h1 {
@@ -279,6 +310,8 @@
         height: 50vh;
         background-color: #0567bf;
         padding: 10px 30px 10px 30px;
+        text-decoration: none;
+        font-style: normal;
     }
 
     address p {
@@ -286,5 +319,7 @@
         font-size: 55px;
         text-align: center;
         margin-top: 20px;
+        border-bottom: 6px solid white;
+        padding-bottom: 5px;
     }
 }
